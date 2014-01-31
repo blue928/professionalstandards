@@ -1,0 +1,14 @@
+<?php
+
+/** 
+ * Initialize the Professional Standards website.
+ * 
+ * When activated this module will download all the dependencies necessary for
+ * the Professional Standards site to operate correctly. By itself, this module
+ * introduces no functionality and can be deleted once the site is created.
+ */
+
+function ps_initialize_help($path, $arg){
+    // do nothing.
+}
+

@@ -1,0 +1,10 @@
+/* This file will hold styles that are loaded using the same media query as the normal grid. */
+/* If you are using the default media queries provided by Omega, these styles will also
+ *  apply to the widescreen layout unless they are overridden by the widescreen styles. */
+
+/* Header section background */
+/* We repeat styles from the narrow css here so that the site looks correct in
+ * older versions of IE, which won't have the narrow css applied. */
+.section-header {
+  background-color: #FFFFFF;
+}

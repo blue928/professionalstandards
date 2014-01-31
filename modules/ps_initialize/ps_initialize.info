@@ -1,0 +1,27 @@
+name = Download Dependant Professional Standards Drupal Modules
+description = Forces download of the modules necessary for Professional Standards to operate correctly. Can be deleted once the site is established.
+package = Professional Standards
+core = 7.x
+
+dependencies[] = addressfield
+dependencies[] = better_exposed_filters
+dependencies[] = custom_breadcrumbs
+dependencies[] = date
+dependencies[] = email
+dependencies[] = entity
+dependencies[] = extlink
+dependencies[] = features
+dependencies[] = feeds
+dependencies[] = hierarchical_term_formatter
+dependencies[] = link
+dependencies[] = location
+dependencies[] = list
+dependencies[] = pathauto
+dependencies[] = taxonomy_display
+dependencies[] = taxonomy_manager
+dependencies[] = taxonomy_menu_block
+dependencies[] = telephone
+dependencies[] = term_reference_tree
+dependencies[] = text
+dependencies[] = token
+dependencies[] = views

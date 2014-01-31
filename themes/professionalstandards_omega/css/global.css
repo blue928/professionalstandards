@@ -1,0 +1,286 @@
+/* This file will hold styles for the mobile version of your website (mobile first). */
+/* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
+
+body {
+  background-color: #3E6CA4;
+}
+h1,
+h2.node-title {
+  font-size: 26px;
+}
+h2,
+h2.block-title {
+  font-size: 20px;
+}
+h3 {
+  font-size: 16px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Calibri, Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  letter-spacing: normal;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a:link,
+a:visited {
+  color: #3E6CA4;
+}
+h1.title {
+  background-color: #3E6CA4;
+  color: #FFFFFF;
+  padding-left: 9px;
+}
+p,
+ul {
+  margin-bottom: 1em;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0.25em;
+}
+a:link {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+ul {
+  padding-left: 1.5em;
+}
+ol,
+.node ol {
+  padding-left: 2em;
+}
+ol.upper-alpha {
+  list-style-type: upper-alpha;
+}
+ol.lower-alpha {
+  list-style-type: lower-alpha;
+}
+ul.menu {
+  padding-left: 0.75em;
+}
+.item-list li {
+  list-style: disc;
+}
+fieldset {
+  border: 1px solid #8EB4E3;
+  border-radius: 4px;
+  margin-top: 10px;
+  position: relative;
+  top: 12px;
+}
+div.fieldset-wrapper {
+  padding: 10px;
+}
+fieldset legend {
+  background-color: #DDE9F7;
+  border: 1px solid #8EB4E3;
+  border-bottom: none;
+  border-radius: 4px 4px 0 0;
+  color: #000000;
+  display: block;
+  left: -1px;
+  height: 2em;
+  line-height: 2;
+  position: absolute;
+  text-indent: 10px;
+  text-shadow: 0 1px 0 #FFFFFF;
+  top: -12px;
+  width: 100%;
+}
+fieldset.collapsed legend {
+  border-bottom: 1px solid #8EB4E3;
+  border-radius: 4px;
+}
+fieldset legend a:link {
+  color: #000000;
+}
+/* Branding zone */
+.region-branding {
+  text-align: center;
+}
+.site-name-slogan {
+  float: none;
+}
+.site-name {
+  margin: 0.5em 0;
+}
+.site-name a {
+  color: #FFFFFF;
+  font-size: 26px;
+  text-shadow: 2px 1px 3px #666666;
+}
+/* Menu zone */
+.zone-menu ul a {
+  background-color: #8EB4E3;
+  border: 1px solid #8EB4E3;
+  border-radius: 5px;
+  color: #FFFFFF;
+  display: block;
+  float: left;
+  line-height: 1.75em;
+  margin-right: 10px;
+  padding: 0 0.8em;
+}
+.zone-menu ul a:hover,
+.zone-menu ul a.active {
+  background-color: #8EB4E3;
+  border-color: #3E6CA4;
+}
+/* Header zone */
+.zone-header {
+  border-width: 1px 0;
+  border-style: solid none;
+  border-color: #8EB4E3;
+  color: #3E6CA4;
+}
+/* Preface and postscript zones */
+.zone-preface,
+.zone-postscript {
+  color: #000000;
+}
+.zone-preface .region-inner,
+.zone-postscript .region-inner {
+  border: 1px solid #8EB4E3;
+}
+/* Sidebar-first and sidebar-second regions */
+.region-sidebar-first,
+.region-sidebar-second,
+.region-sidebar-first h2,
+.region-sidebar-first a,
+.region-sidebar-second h2,
+.region-sidebar-second a {
+  color: #3E6CA4;
+}
+.region-sidebar-first .block,
+.region-sidebar-second .block {
+  background-color: #DDE9F7;
+  border: 2px solid #8EB4E3;
+}
+/* Footer section */
+.section-footer,
+.section-footer h2,
+.section-footer a {
+  color: #FFFFFF;
+}
+.section-footer {
+  font-size: 85%;
+}
+.region-footer-second {
+  text-align: center;
+}
+/* Menu zone, header zone, and content section background colors */
+.zone-menu-wrapper,
+.zone-header-wrapper,
+.section-content {
+  background-color: #FFFFFF;
+}
+/* Preface, sidebar-first, sidebar-second, and postscript border radii */
+.zone-preface .region-inner,
+.zone-postscript .region-inner,
+.region-sidebar-first .block,
+.region-sidebar-second .block {
+  border-radius: 10px;
+  padding: 7px;
+}
+/* Zone and region spacing */
+.zone-menu ul a {
+  margin-top: 10px;
+}
+.region-footer-second {
+  margin-top: 10px;
+}
+.zone-menu,
+.zone-header,
+.zone-header .region-inner,
+.zone-preface .region-inner,
+.zone-content .region-inner,
+.zone-content .block,
+.zone-postscript .region-inner {
+  margin-bottom: 10px;
+}
+
+/* Child terms page view styles */
+.second-level-term-name {
+  font-weight: bold;
+}
+.view-display-id-child_terms_attachment ul {
+  margin-left: 15px;
+}
+/* Search page view styles */
+.views-table th {
+  background-color: #DDE9F7;
+  font-weight: bold;
+  text-align: center;
+}
+.bef-checkboxes {
+  margin-left: 2px;
+}
+.bef-checkboxes label,
+.bef-tree label {
+  font-weight: normal;
+}
+
+/** pro stan customizations **/
+
+.page-node .field-name-field-thumbnail {
+	float: left;
+	margin-right: 10px;
+}
+
+.page-node .field-name-field-website {
+	clear: both;
+	margin-top: 15px;
+}
+
+.page-node .field-name-body {
+	/*min-height: 200px;*/
+	overflow: hidden;
+}
+
+.page-node .field-items .field-item {
+	float: left;
+	margin-right: 12px;
+}
+
+.page-node .field {
+	clear: both;
+}
+
+.footer-content {
+	text-align: center;
+}
+
+.page-node .field .field-label {
+	float: left;
+	margin-right: 5px;
+}
+
+.page-node .field-name-body {
+	clear: none;
+}
+
+.logo-img img {
+max-width: 100%;
+height: auto;
+}
+
+/* make advanced search bigger */
+#edit-keys {
+	width: 500px;
+}
